@@ -24,7 +24,7 @@ a_VaR_values = [1.143161852, 1.309826942, 1.53969503, 1.873290874, 2.462527131]
 
 # Simulation parameters (modifiable)
 N_outer = 1000  # Number of outer simulations for Z (e.g., 1000 for testing, increase for accuracy)
-N_inner = 2000  # Number of inner simulations for L_{-i} and epsilon_i (e.g., 10000)
+N_inner = 1000  # Number of inner simulations for L_{-i} and epsilon_i (e.g., 1000)
 reps = 10  # Number of repetitions for averaging and SE
 
 def compute_safa_varc(a_VaR_values, N_outer, N_inner, reps):
