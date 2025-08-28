@@ -19,7 +19,7 @@ np.random.seed(42)
 d = 10
 
 # Repetition for scenarios
-n_repetitions = 100
+n_repetitions = 10
 
 # Simulation paths
 simulation_runs = 10000000 # 10000000 一千万是极限了 再算restarting kernal了
